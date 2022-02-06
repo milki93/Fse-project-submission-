@@ -9,7 +9,7 @@ $stmt->bind_param('d', $user_id);
 $stmt->execute();
 $stmt->bind_result($mass, $bloodpressure, $sugar);
 if($stmt->fetch()){
-    echo "im working";
+    echo "i am working";
 }
 else{
     echo "sorry";

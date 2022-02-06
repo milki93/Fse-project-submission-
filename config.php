@@ -1,5 +1,6 @@
-<?php
 
+<?php
+//set connection with database 
 session_start();
 define('DB_NAME', 'bbms');
 define('DB_USERNAME', 'root');

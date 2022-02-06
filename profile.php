@@ -9,6 +9,7 @@ $stmt = $link->prepare($SQL);
 //echo var_dump($link->error);
 $stmt->bind_param('d', $user_id);
 $stmt->execute();
+//excutes the database
 $stmt->bind_result($f_name, $sex, $blood_type);
 $stmt->fetch();
 if($sex==1){
