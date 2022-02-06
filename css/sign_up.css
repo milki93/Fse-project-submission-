@@ -1,0 +1,90 @@
+/* rgba(163,0,0,255), rgba(58,26,26,255), rgba(150,20,20,255), rgba(150,20,20,255), rgba(242,242,242,255) */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid blue; */
+}
+
+html {
+    background: linear-gradient(#f12711, #df4600);
+}
+
+.sign_up-form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign_up-form * {margin: 0.25rem;}
+
+.sign_up-form > div:first-child{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+.sign_up-form .sign_up-header {
+    width: 15rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem ;
+    font-family: monospace;
+    font-variant: small-caps;
+    font-weight: bolder;
+    color: rgba(150,20,20,255);
+    font-size: 2rem; 
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+}
+
+.sign_up-form .sign_up-body fieldset {
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+.sign_up-form .sign_up-body legend {
+    font-family: monospace;
+    font-variant: small-caps;
+    font-weight: bolder;
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+}
+
+.sign_up-form input {
+    outline: none;
+    border: none;
+    width: 14rem;
+    padding: 0.25rem 0.25rem;
+}
+
+.sign_up-form input::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sign_up-form .sign-up-button {
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color:rgba(163,0,0,255);
+    font-size: medium;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    justify-content: right;
+}
+
+.sign-up-footer {
+    text-align: right;
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.err-msg {
+    color: red;
+    font-size: small;
+    text-align: center;
+    font-weight: bolder;
+    font-variant: small-caps;
+}

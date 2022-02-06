@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid blue; */
+}
+
+html {
+    background: linear-gradient(#f12711, #df4600);
+}
+.heading{
+    /* text-align: left; */
+    /* color: black; */
+    width: 15rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem ;
+    font-family: monospace;
+    font-variant: small-caps;
+    font-weight: bolder;
+    color: rgba(150,20,20,255);
+    font-size: 2rem; 
+    text-align: left;
+    border-bottom: 2px solid #ccc; 
+    /* margin-top: 50pxs; */
+   }
+.paragraph{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: #fff;
+}
+.jumbotron {
+background-color: red;
+color: black;
+padding: 100px 25px;
+justify-content: center;
+}
+.staff_body .items {
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+.items .update_button {
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color:rgba(163,0,0,255);
+    font-size: medium;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    margin-right: auto;
+    margin-top: 10px;
+}
